@@ -321,8 +321,8 @@ public class NamespaceStack {
         }
 
         if (namespace == null) {
-            System.out.println("Warning: missing namespace prefix ignored: "
-                    + prefix);
+//            System.out.println("Warning: missing namespace prefix ignored: "
+//                    + prefix);
         }
 
         return namespace;

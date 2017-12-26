@@ -273,7 +273,7 @@ public class XMLTableDefinition implements Serializable, VariableContext {
 
     protected void handleException(Exception e) {
         // #### should use jakarta commons-logging
-        System.out.println("Caught: " + e);
+//        System.out.println("Caught: " + e);
     }
 }
 

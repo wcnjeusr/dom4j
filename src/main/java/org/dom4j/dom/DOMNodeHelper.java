@@ -436,8 +436,8 @@ public class DOMNodeHelper {
             return (org.w3c.dom.Node) node;
         } else {
             // Use DOMWriter?
-            System.out.println("Cannot convert: " + node
-                    + " into a W3C DOM Node");
+//            System.out.println("Cannot convert: " + node
+//                    + " into a W3C DOM Node");
             notSupported();
 
             return null;

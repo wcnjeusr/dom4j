@@ -85,13 +85,13 @@ class SAXHelper {
                 if (isVerboseErrorReporting()) {
                     // log all exceptions as warnings and carry
                     // on as we have a default SAX parser we can use
-                    System.out.println("Warning: Caught exception attempting "
-                            + "to use SAX to load a SAX XMLReader ");
-                    System.out.println("Warning: Exception was: " + e);
-                    System.out
-                            .println("Warning: I will print the stack trace "
-                                    + "then carry on using the default "
-                                    + "SAX parser");
+//                    System.out.println("Warning: Caught exception attempting "
+//                            + "to use SAX to load a SAX XMLReader ");
+//                    System.out.println("Warning: Exception was: " + e);
+//                    System.out
+//                            .println("Warning: I will print the stack trace "
+//                                    + "then carry on using the default "
+//                                    + "SAX parser");
                     e.printStackTrace();
                 }
 
@@ -130,9 +130,9 @@ class SAXHelper {
                 if (isVerboseErrorReporting()) {
                     // log all exceptions as warnings and carry
                     // on as we have a default SAX parser we can use
-                    System.out.println("Warning: Caught exception attempting "
-                            + "to use JAXP to load a SAX XMLReader");
-                    System.out.println("Warning: Exception was: " + e);
+//                    System.out.println("Warning: Caught exception attempting "
+//                            + "to use JAXP to load a SAX XMLReader");
+//                    System.out.println("Warning: Exception was: " + e);
                     e.printStackTrace();
                 }
             }

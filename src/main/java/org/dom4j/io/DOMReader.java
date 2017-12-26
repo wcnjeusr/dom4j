@@ -164,8 +164,8 @@ public class DOMReader {
                 break;
 
             default:
-                System.out.println("WARNING: Unknown DOM node type: "
-                        + node.getNodeType());
+//                System.out.println("WARNING: Unknown DOM node type: "
+//                        + node.getNodeType());
         }
     }
 

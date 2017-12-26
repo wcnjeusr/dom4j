@@ -137,9 +137,9 @@ public class SchemaParser {
                     Document inclSchemaDocument = reader.read(inputSource);
                     build(inclSchemaDocument);
                 } catch (Exception e) {
-                    System.out.println("Failed to load schema: "
-                            + inclSchemaInstanceURI);
-                    System.out.println("Caught: " + e);
+//                    System.out.println("Failed to load schema: "
+//                            + inclSchemaInstanceURI);
+//                    System.out.println("Caught: " + e);
                     e.printStackTrace();
                     throw new InvalidSchemaException("Failed to load schema: "
                             + inclSchemaInstanceURI);
@@ -327,8 +327,8 @@ public class SchemaParser {
             elementFactory.setAttributeXSDatatype(qname, dataType);
         } else {
             String type = xsdAttribute.attributeValue("type");
-            System.out.println("Warning: Couldn't find XSDatatype for type: "
-                    + type + " attribute: " + name);
+//            System.out.println("Warning: Couldn't find XSDatatype for type: "
+//                    + type + " attribute: " + name);
         }
     }
 

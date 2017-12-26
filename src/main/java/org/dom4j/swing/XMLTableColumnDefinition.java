@@ -196,7 +196,7 @@ public class XMLTableColumnDefinition implements Serializable {
 
     protected void handleException(Exception e) {
         // #### should use jakarta commons-logging
-        System.out.println("Caught: " + e);
+//        System.out.println("Caught: " + e);
     }
 }
 

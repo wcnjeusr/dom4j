@@ -91,8 +91,8 @@ public class XMLTableModel extends AbstractTableModel {
         XPath xpath = definition.getColumnNameXPath(columnIndex);
 
         if (xpath != null) {
-            System.out.println("Evaluating column xpath: " + xpath + " value: "
-                    + xpath.valueOf(source));
+//            System.out.println("Evaluating column xpath: " + xpath + " value: "
+//                    + xpath.valueOf(source));
 
             return xpath.valueOf(source);
         }
@@ -162,7 +162,7 @@ public class XMLTableModel extends AbstractTableModel {
     // -------------------------------------------------------------------------
     protected void handleException(Exception e) {
         // #### should use jakarta commons-logging
-        System.out.println("Caught: " + e);
+//        System.out.println("Caught: " + e);
     }
 }
 

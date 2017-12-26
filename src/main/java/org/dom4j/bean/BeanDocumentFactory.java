@@ -92,7 +92,7 @@ public class BeanDocumentFactory extends DocumentFactory {
 
     protected void handleException(Exception e) {
         // ignore introspection exceptions
-        System.out.println("#### Warning: couldn't create bean: " + e);
+//        System.out.println("#### Warning: couldn't create bean: " + e);
     }
 }
 

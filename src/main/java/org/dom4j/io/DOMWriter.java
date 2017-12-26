@@ -302,13 +302,13 @@ public class DOMWriter {
                 if (SAXHelper.isVerboseErrorReporting()) {
                     // log all exceptions as warnings and carry
                     // on as we have a default SAX parser we can use
-                    System.out.println("Warning: Caught exception attempting "
-                            + "to use JAXP to create a W3C DOM " + "document");
-                    System.out.println("Warning: Exception was: " + e);
+//                    System.out.println("Warning: Caught exception attempting "
+//                            + "to use JAXP to create a W3C DOM " + "document");
+//                    System.out.println("Warning: Exception was: " + e);
                     e.printStackTrace();
                 } else {
-                    System.out.println("Warning: Error occurred using JAXP to "
-                            + "create a DOM document.");
+//                    System.out.println("Warning: Error occurred using JAXP to "
+//                            + "create a DOM document.");
                 }
             }
         }

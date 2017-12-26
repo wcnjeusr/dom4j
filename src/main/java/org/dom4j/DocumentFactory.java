@@ -369,8 +369,8 @@ public class DocumentFactory implements Serializable {
 
             return theClass.newInstance();
         } catch (Throwable e) {
-            System.out.println("WARNING: Cannot load DocumentFactory: "
-                    + className);
+//            System.out.println("WARNING: Cannot load DocumentFactory: "
+//                    + className);
 
             return new DocumentFactory();
         }

@@ -104,7 +104,7 @@ public class RuleManager {
         if (mode != null) {
             return mode.getMatchingRule(node);
         } else {
-            System.out.println("Warning: No Mode for mode: " + mode);
+//            System.out.println("Warning: No Mode for mode: " + mode);
 
             return null;
         }

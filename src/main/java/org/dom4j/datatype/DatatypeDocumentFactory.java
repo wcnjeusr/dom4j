@@ -147,8 +147,8 @@ public class DatatypeDocumentFactory extends DocumentFactory {
             Document schemaDocument = xmlSchemaReader.read(inputSource);
             loadSchema(schemaDocument);
         } catch (Exception e) {
-            System.out.println("Failed to load schema: " + schemaInstanceURI);
-            System.out.println("Caught: " + e);
+//            System.out.println("Failed to load schema: " + schemaInstanceURI);
+//            System.out.println("Caught: " + e);
             e.printStackTrace();
             throw new InvalidSchemaException("Failed to load schema: "
                     + schemaInstanceURI);
@@ -176,8 +176,8 @@ public class DatatypeDocumentFactory extends DocumentFactory {
             Document schemaDocument = xmlSchemaReader.read(inputSource);
             loadSchema(schemaDocument, namespace);
         } catch (Exception e) {
-            System.out.println("Failed to load schema: " + schemaInstanceURI);
-            System.out.println("Caught: " + e);
+//            System.out.println("Failed to load schema: " + schemaInstanceURI);
+//            System.out.println("Caught: " + e);
             e.printStackTrace();
             throw new InvalidSchemaException("Failed to load schema: "
                     + schemaInstanceURI);
